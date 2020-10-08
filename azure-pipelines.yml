@@ -19,7 +19,7 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
- - task: Bash@3
+    - task: Bash@3
       displayName: Build image
       inputs:
         targetType: "inline"
